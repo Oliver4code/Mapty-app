@@ -314,6 +314,8 @@ class App {
     btnDelete.addEventListener("click", this._deleteWorkout.bind(this));
   }
 
+  ////////////////////////////
+  // Moves the popup when clicked on the workout on the left
   _moveToPopup(e) {
     const workoutEl = e.target.closest(".workout");
 
